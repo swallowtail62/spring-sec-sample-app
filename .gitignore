@@ -34,3 +34,6 @@ out/
 
 ### H2 ###
 h2db/
+
+### docker volumes ###
+docker/db/data/**
