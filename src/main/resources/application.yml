@@ -1,7 +1,7 @@
 spring:
   # DataSource
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/spring-sec
+    url: jdbc:mysql://127.0.0.1:3306/spring-sec?serverTimezone=UTC
     username: root
     password: root
     # connection pool use tomcat

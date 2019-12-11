@@ -48,8 +48,5 @@ test {
 }
 
 flyway {
-    url = 'jdbc:mysql://127.0.0.1:3306/spring-sec'
-    user = 'root'
-    password = 'root'
-    schemas = ['spring-sec']
+    configFiles = ['src/main/resources/db/conf/flyway.conf']
 }

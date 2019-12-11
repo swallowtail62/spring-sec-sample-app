@@ -1,16 +1,16 @@
 package com.terre.demo.domain.entity;
 
-import lombok.Data;
+import com.terre.demo.domain.entity.core.BaseEntity;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.io.Serializable;
 
 @Entity
-@Data
-public class User implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+@Getter
+@Setter
+public class User extends BaseEntity {
 
     @Id
     private int userId;
